@@ -9,14 +9,18 @@
         <div class="card-body">
         
             
-            <form method="post" action="<?= base_url('product/save'); ?>">
+            <form method="post"  action="<?php echo base_url('product/save') ?>">
            <div class="form-group">
                     <label for="product">Product</label>
-                    <input type="text" class="form-control" id="product" name="product" required="required">
+                    <input type="text" class="form-control" name="produk" required="required">
                 </div>
                 <div class="form-group">
                     <label for="gambar">Gambar</label>
-                    <input type="text" class="form-control" id="gambar" name="gambar" required="required">
+                    <input type="text" class="form-control" name="gambar" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="harga">Harga</label>
+                    <input type="number" class="form-control" name="harga" required="required">
                 </div>
                 <!-- <div class="mb-3">
                         <label for="gambar" class="form-label">Gambar</label>

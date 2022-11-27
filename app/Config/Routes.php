@@ -40,6 +40,7 @@ $routes->get('/login', 'AdminController::index');
 $routes->get('/logout', 'AdminController::logout');
 $routes->get('/product', 'ProductController::index');
 $routes->get('/product/create', 'ProductController::create');
+$routes->get('/product/save', 'ProductController::save');
 $routes->get('/product/edit/(:num)', 'ProductController::edit/$1');
 $routes->get('/product/update/(:num)', 'ProductController::update/$1');
 //$routes->get('/dashboard', 'AdminController::dashboard');

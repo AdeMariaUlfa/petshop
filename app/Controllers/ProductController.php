@@ -16,7 +16,16 @@ class ProductController extends BaseController
 
     public function index()
     {
-        $data['product'] = $this->product->findAll();
+        $product = new ProductsModel();
+
+        //pager initialize
+        $pager = \Config\Services::pager();
+
+        $data = array(
+            'posts' => $product->findAll(),
+            'pager' => $product->pager
+        );
+
         return view('admin/product/index', $data);
     }
     public function create()
@@ -25,12 +34,20 @@ class ProductController extends BaseController
     }
     public function save()
     {
-        $data = array(
-            'product'  => $this->request->getPost('product'),
-            'gambar' => $this->request->getPost('gambar'),
-            'created_at' => Time::now()
+        $product = new ProductsModel();
+
+        $produk = $this->request->getPost('produk');
+        $gambar = $this->request->getPost('gambar');
+        $harga = $this->request->getPost('harga');
+        $product->insert(
+            [
+                'product'  => $produk,
+                'gambar' => $gambar,
+                'harga' => $harga,
+            ]
         );
-        $product->saveProduct($data);
+
+
         return redirect()->to('/product');
         // if (!$this->validate([
         //     'product' => [
@@ -50,27 +67,30 @@ class ProductController extends BaseController
         //     session()->setFlashdata('error', $this->validator->listErrors());
         //     return redirect()->back()->withInput();
         // }
- 
-		// // $dataBerkas = $this->request->getFile('gambar');
-		// // $fileName = $dataBerkas->getRandomName();
-		// $this->$product->insert([
+
+        // // $dataBerkas = $this->request->getFile('gambar');
+        // // $fileName = $dataBerkas->getRandomName();
+        // $this->$product->insert([
         //     'product' => $this->request->getVar('product'),
-		// 	'gambar' => $this->request->getVar('gambar'),
-		// ]);
-		// //$dataBerkas->move('uploads/berkas/', $fileName);
+        // 	'gambar' => $this->request->getVar('gambar'),
+        // ]);
+        // //$dataBerkas->move('uploads/berkas/', $fileName);
         // session()->setFlashdata('message', 'Tambah Data Pegawai Berhasil');
         // return redirect()->to('/product');
     }
     public function edit($id)
     {
+        $product = new ProductsModel();
+        $data = array(
+            'product' => $product->find($id)
+        );
        
-        $data['product'] = $product->getProduct($id)->getRow();
         echo view('admin/product/edit', $data);
     }
 
     public function update($id)
     {
-        
+
         $id = $this->request->getPost('id_product');
         $data = array(
             'product'  => $this->request->getPost('product'),
@@ -82,7 +102,7 @@ class ProductController extends BaseController
 
     public function delete($id)
     {
-        
+
         $model->deleteProduct($id);
         return redirect()->to('/product');
     }
