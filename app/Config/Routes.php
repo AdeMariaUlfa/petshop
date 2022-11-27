@@ -37,7 +37,14 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'AdminController::index');
-$routes->get('/dashboard', 'AdminController::dashboard');
+$routes->get('/product', 'ProductController::index');
+$routes->get('/product/create', 'ProductController::create');
+$routes->get('/product/edit/(:num)', 'ProductController::edit/$1');
+$routes->get('/product/update/(:num)', 'ProductController::update/$1');
+//$routes->get('/dashboard', 'AdminController::dashboard');
+$routes->post('/auth', 'AdminController::auth');
+$routes->post('/product/save', 'ProductController::save');
+//$routes->get('/dashboard', 'AdminController::dashboard',['filter' => 'auth']);
 
 /*
  * --------------------------------------------------------------------
