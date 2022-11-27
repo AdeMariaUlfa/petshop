@@ -27,15 +27,15 @@ class AdminController extends BaseController
         
         if($data){
             $pass = $data['password'];
-            $authenticatePassword = password_verify($password, $pass);
-            if($authenticatePassword){
+           
+            if($pass != null){
                 $ses_data = [
                     'id' => $data['id'],
                     'email' => $data['email'],
                     'isLoggedIn' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('admin/dashboard');
+                return view('admin/dashboard');
             
             }else{
                 $session->setFlashdata('msg', 'Password is incorrect.');
