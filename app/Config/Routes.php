@@ -37,6 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'AdminController::index');
+$routes->get('/logout', 'AdminController::logout');
 $routes->get('/product', 'ProductController::index');
 $routes->get('/product/create', 'ProductController::create');
 $routes->get('/product/edit/(:num)', 'ProductController::edit/$1');
