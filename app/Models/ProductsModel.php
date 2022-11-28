@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class ProductsModel extends Model
 {
     protected $table = "product";
+    protected $primaryKey ="id_product";
     protected $allowedFields = [
         'product',
         'gambar',

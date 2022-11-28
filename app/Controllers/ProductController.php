@@ -82,28 +82,37 @@ class ProductController extends BaseController
     {
         $product = new ProductsModel();
         $data = array(
-            'product' => $product->find($id)
+            'product' => $product->where('id_product', $id)->first()
         );
-       
+
         echo view('admin/product/edit', $data);
     }
 
     public function update($id)
     {
 
-        $id = $this->request->getPost('id_product');
-        $data = array(
-            'product'  => $this->request->getPost('product'),
-            'gambar' => $this->request->getPost('gambar'),
-        );
-        $model->updateProduct($data, $id);
+        $product = new ProductsModel();
+
+        $produk = $this->request->getPost('produk');
+        $gambar = $this->request->getPost('gambar');
+        $harga = $this->request->getPost('harga');
+        $data   = [
+            'product'  => $produk,
+            'gambar' => $gambar,
+            'harga' => $harga,
+        ];  
+        
+        
+        $product->update($id,$data);
+
         return redirect()->to('/product');
     }
 
     public function delete($id)
     {
 
-        $model->deleteProduct($id);
+        $product = new ProductsModel();
+        $product->delete($id);
         return redirect()->to('/product');
     }
 }
