@@ -47,8 +47,21 @@
                         <a class="nav-link" href="/auth">Dashboard <span class="sr-only"></span></a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/product">Product</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Data Pelanggan</a>
                     </li>
+                        <a class="nav-link" href="/product">Produk Kucing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Produk Anjing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Produk Ikan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Produk Reptil</a>
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="/logout">Logout</a>
                     </li>
@@ -64,7 +77,7 @@
  
     <footer class="footer mt-auto py-3">
         <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <span class="text-muted">2022</span>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

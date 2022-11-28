@@ -3,7 +3,7 @@
 <div class="container">
     <div class="card">
         <div class="card-header">
-            <h3>Data Product</h3>
+            <h3>Data Produk Kucing</h3>
         </div>
         <div class="card-body">
             
