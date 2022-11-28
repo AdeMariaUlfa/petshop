@@ -48,18 +48,18 @@
                     </li> -->
                     <li class="nav-item">
                     <li class="nav-item">
-                        <a class="nav-link" href="">Data Pelanggan</a>
+                        <a class="nav-link" href="/pelanggan">Data Pelanggan</a>
                     </li>
                         <a class="nav-link" href="/product">Produk Kucing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Produk Anjing</a>
+                        <a class="nav-link" href="/productAnjing">Produk Anjing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Produk Ikan</a>
+                        <a class="nav-link" href="/productIkan">Produk Ikan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Produk Reptil</a>
+                        <a class="nav-link" href="/productReptil">Produk Reptil</a>
                     </li>
                     
                     <li class="nav-item">

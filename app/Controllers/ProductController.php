@@ -28,6 +28,22 @@ class ProductController extends BaseController
 
         return view('admin/product/index', $data);
     }
+    public function pelanggan()
+    {
+        return view('admin/product/index-pelanggan');
+    }
+    public function indexAnjing()
+    {
+        return view('admin/product/index-anjing');
+    }
+    public function indexIkan()
+    {
+        return view('admin/product/index-ikan');
+    }
+    public function indexReptil()
+    {
+        return view('admin/product/index-reptil');
+    }
     public function create()
     {
         return view('admin/product/create');
