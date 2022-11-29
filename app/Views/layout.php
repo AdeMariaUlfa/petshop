@@ -46,22 +46,22 @@
     <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
       <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="/anjing">
             Produk Anjing
           </a>
         </li>
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="/kucing" >
             Produk Kucing
           </a>
         </li>
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="/ikan">
             Produk Ikan
           </a>
         </li>
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="/reptil">
             Produk Reptil
           </a>
         </li>
