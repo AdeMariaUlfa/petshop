@@ -48,18 +48,18 @@
                     </li> -->
                     <li class="nav-item">
                     <li class="nav-item">
-                        <a class="nav-link" href="/pelanggan">Data Pelanggan</a>
+                        <a class="nav-link" href="<?= base_url('/pelanggan'); ?>">Data Pelanggan</a>
                     </li>
-                        <a class="nav-link" href="/product">Produk Kucing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/productAnjing">Produk Anjing</a>
+                        <a class="nav-link" href="<?= base_url('/product'); ?>">Produk Kucing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/productIkan">Produk Ikan</a>
+                        <a class="nav-link" href="<?= base_url('/productAnjing'); ?>">Produk Anjing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/productReptil">Produk Reptil</a>
+                        <a class="nav-link" href="<?= base_url('/productIkan'); ?>">Produk Ikan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/productReptil'); ?>">Produk Reptil</a>
                     </li>
                     
                     <li class="nav-item">
