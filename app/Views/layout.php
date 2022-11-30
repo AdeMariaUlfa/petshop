@@ -66,7 +66,7 @@
           </a>
         </li>
         <li class="nav-item ms-lg-auto">
-          <a class="nav-link nav-link-icon me-2" href="/login" target="_blank">
+          <a class="nav-link nav-link-icon me-2" href="<?= base_url('/login') ?> " target="_blank">
             <i class="fa fa-sign-in" aria-hidden="true"></i>
             <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Login Admin">Login</p>
           </a>

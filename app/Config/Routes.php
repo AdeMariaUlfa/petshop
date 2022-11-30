@@ -40,7 +40,7 @@ $routes->get('/kucing', 'Home::kucing');
 $routes->get('/anjing', 'Home::anjing');
 $routes->get('/ikan', 'Home::ikan');
 $routes->get('/reptil', 'Home::reptil');
-$routes->get('/login', 'AdminController::index');
+$routes->get('/petshop/login', 'AdminController::index');
 $routes->get('/logout', 'AdminController::logout');
 $routes->get('/petshop/pelanggan', 'ProductController::pelanggan');
 $routes->get('/petshop/product', 'ProductController::index');
