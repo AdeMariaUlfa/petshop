@@ -89,16 +89,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-bags.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://img.my-best.id/press_component/item_part_images/2b9982ae96e8b0b98ef79efb30bfccdd.jpeg?ixlib=rails-4.2.0&q=70&lossless=0&w=640&h=640&fit=clip">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">Rover raised $65 million</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">Makanan Ikan Takari</a>
               </h5>
               <p>
-                Finding temporary housing for your dog should be as easy as
-                renting an Airbnb. That’s the idea behind Rover ...
+                Harga : 18.000	
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -110,16 +109,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://cf.shopee.co.id/file/ff5001c2d50c7a3eba3f398335ee00c2">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">MateLabs machine learning</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">Obat Ikan Anti Jamur & Bakteri	</a>
               </h5>
               <p>
-                If you’ve ever wanted to train a machine learning model
-                and integrate it with IFTTT, you now can with ...
+                Harga : 11.700	
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -131,16 +129,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://www.ruparupa.com/blog/wp-content/uploads/2022/05/ruparupa-2022-05-30T133517.869.jpg">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">US venture investment ticks</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">Akuarium Ikan Besar	</a>
               </h5>
               <p>
-                Venture investment in U.S. startups rose sequentially in
-                the second quarter of 2017, boosted by large, ate-stage financings
+                Harga : 45.000
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -152,16 +149,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://duniaair.com/wp-content/uploads/2017/05/lampu-akuarium.jpg">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">US venture investment ticks</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">LED Akuarium	</a>
               </h5>
               <p>
-                Venture investment in U.S. startups rose sequentially in
-                the second quarter of 2017, boosted by large, ate-stage financings
+                Harga : 22.800	
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
