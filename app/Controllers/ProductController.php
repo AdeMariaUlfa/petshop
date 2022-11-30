@@ -53,16 +53,17 @@ class ProductController extends BaseController
         $product = new ProductsModel();
 
         $produk = $this->request->getPost('produk');
-        $gambar = $this->request->getPost('gambar');
+        $gambar = $this->request->getFile('gambar');
         $harga = $this->request->getPost('harga');
+        $fileName = $gambar->getRandomName();
         $product->insert(
             [
                 'product'  => $produk,
-                'gambar' => $gambar,
+                'gambar' => $fileName,
                 'harga' => $harga,
             ]
         );
-
+        $gambar->move('uploads/', $fileName);
 
         return redirect()->to('/product');
         // if (!$this->validate([

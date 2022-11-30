@@ -47,7 +47,7 @@ $routes->get('/petshop/product', 'ProductController::index');
 $routes->get('/petshop/productAnjing', 'ProductController::indexAnjing');
 $routes->get('/petshop/productIkan', 'ProductController::indexIkan');
 $routes->get('/petshop/productReptil', 'ProductController::indexReptil');
-$routes->get('/petshop/product/create', 'ProductController::create');
+$routes->get('/product/create', 'ProductController::create');
 $routes->get('/petshop/product/edit/(:segment)', 'ProductController::edit/$1');
 $routes->post('/petshop/product/update/(:segment)', 'ProductController::update/$1');
 $routes->get('/petshop/product/delete/(:segment)', 'ProductController::delete/$1');
