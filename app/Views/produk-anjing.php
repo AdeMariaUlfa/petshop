@@ -64,7 +64,7 @@
           </a>
         </li>
         <li class="nav-item ms-lg-auto">
-          <a class="nav-link nav-link-icon me-2" href="/login" target="_blank">
+          <a class="nav-link nav-link-icon me-2" href="<?= base_url('/login') ?> " target="_blank">
             <i class="fa fa-sign-in" aria-hidden="true"></i>
             <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Login Admin">Login</p>
           </a>
@@ -89,16 +89,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-bags.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//107/MTA-3968288/petshop_murah_dog_choize__adult_beef_flavour_-_makanan_anjing_-20kg-_full02.jpg">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">Rover raised $65 million</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">DOG CHOIZE BEEF 20KG MAKANAN ANJING	</a>
               </h5>
               <p>
-                Finding temporary housing for your dog should be as easy as
-                renting an Airbnb. That’s the idea behind Rover ...
+                Harga : 557.000
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -110,16 +109,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://cf.shopee.co.id/file/8ebec1f3f1e1e25b3805a9fb8990be9a">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">MateLabs machine learning</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">Pdg Lamb 1,5Kg</a>
               </h5>
               <p>
-                If you’ve ever wanted to train a machine learning model
-                and integrate it with IFTTT, you now can with ...
+                Harga : 67.000	
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -131,16 +129,15 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://cf.shopee.co.id/file/f730c101905570d5d38bbce5a00a2e1b">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">US venture investment ticks</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">KALUNG ANJING KULIT ASLI ACC STAINLESS</a>
               </h5>
               <p>
-                Venture investment in U.S. startups rose sequentially in
-                the second quarter of 2017, boosted by large, ate-stage financings
+                Harga : 150.000
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
@@ -152,16 +149,55 @@
           <div class="card card-plain card-blog">
             <div class="card-image border-radius-lg position-relative">
               <a href="javascript:;">
-                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://cf.shopee.co.id/file/3e502737e3c618736b2d8e15ef991959">
               </a>
             </div>
             <div class="card-body px-0">
               <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">US venture investment ticks</a>
+                <a href="javascript:;" class="text-dark font-weight-bold">OBAT PENGGEMUK ANJING	</a>
               </h5>
               <p>
-                Venture investment in U.S. startups rose sequentially in
-                the second quarter of 2017, boosted by large, ate-stage financings
+                Harga : 16.800	
+              </p>
+              <a href="javascript:;" class="text-info icon-move-right">Read More
+                <i class="fas fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card card-plain card-blog">
+            <div class="card-image border-radius-lg position-relative">
+              <a href="javascript:;">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://cf.shopee.co.id/file/f2e4cdc142a8fd5e7d2fdb8cbc2c058b">
+              </a>  
+            </div>
+            <div class="card-body px-0">
+              <h5>
+                <a href="javascript:;" class="text-dark font-weight-bold">Pro Lysine Dog - Vitamin Anjing Peningkat Nafsu Makan</a>
+              </h5>
+              <p>
+                Harga : 25.000
+              </p>
+              <a href="javascript:;" class="text-info icon-move-right">Read More
+                <i class="fas fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card card-plain card-blog">
+            <div class="card-image border-radius-lg position-relative">
+              <a href="javascript:;">
+                <img class="w-100 border-radius-lg move-on-hover shadow" src="https://res.cloudinary.com/ruparupa-com/image/upload/w_360,h_360,f_auto,q_auto/f_auto,q_auto:eco/v1596468231/Products/10053417_1.jpg">
+              </a>  
+            </div>
+            <div class="card-body px-0">
+              <h5>
+                <a href="javascript:;" class="text-dark font-weight-bold">Snack / Cemilan Anjing Pedigree Meat Jerky Stix / Dog Food </a>
+              </h5>
+              <p>
+                Harga : 18.995
               </p>
               <a href="javascript:;" class="text-info icon-move-right">Read More
                 <i class="fas fa-arrow-right text-sm"></i>
